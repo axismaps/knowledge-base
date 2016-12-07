@@ -1,0 +1,61 @@
+Design It
+-Andy's Thematic guide goes here
+
+Build It
+-Dev Environment
+--XAMMP
+--Node
+--Code Editor
+---Atom
+----Useful plugins
+---Sublime
+----Useful plugins
+-Build Tools
+--Bower vs NPM
+--JSCS
+--Gulp
+--iMagick
+-Code Layout
+--Files
+--JS
+-Code Best Practices (Style, Do's and don'ts, etc...)
+--HTML
+---Useful header tags
+---HMTL5 semantic elements
+--JS
+--CSS
+---BEM naming
+-Fonts and Icons
+--Google Fonts
+--Fontello
+-Libraries
+--Mapping
+---Leaflet
+----Leaflet.Draw
+----Leaflet Marker Cluster
+----Other Leaflet Plugins
+---D3
+----Topojson
+----Queue
+----D3 geo
+--Coding
+---JQuery
+---Underscore
+--Others
+---noUiSlider
+---GUP
+---Normalize.css
+---Featherlight
+---PapaParse
+-Testing
+-- Manual Testing
+-- ¯\_(ツ)_/¯
+-Accessibility
+--Best Practices
+--Testing tools
+-Browser bugs
+--IE11
+--Edge
+--Chrome
+--Firefox
+--Safari
