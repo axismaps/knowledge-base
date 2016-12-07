@@ -1,0 +1,11 @@
+---
+layout: directory
+---
+
+<h2>Code Directory</h2>
+
+<ul>
+  {% for doc in site.code %}
+    <li><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></li>
+  {% endfor %}
+</ul>
