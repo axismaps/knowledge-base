@@ -3,10 +3,13 @@
   {% include meta.html %}
   <body>
     <div class="wrapper">
-      <a href="/" class="main-logo"><img src="/images/logo.png" /></a>
-      <h1 class="title">{{ page.title }}</h1>
-      <section class="content">
-        {{ content }}
+      {% include header.html %}
+      {% include nav.html %}
+      <section>
+        <h1 class="title">{{ page.title }}</h1>
+        <article>
+          {{ content }}
+        </article>
       </section>
     </div>
     {% include generalScripts.html %}

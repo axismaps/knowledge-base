@@ -3,7 +3,11 @@
   {% include meta.html %}
   <body>
     <div class="wrapper">
-      {{ content }}
+      {% include header.html %}
+      {% include nav.html %}
+      <section>
+        {{ content }}
+      </section>
     </div>
     {% include generalScripts.html %}
   </body>
