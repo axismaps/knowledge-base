@@ -146,3 +146,17 @@ article {
 .content {
   text-align: left;
 }
+
+article a {
+  border-bottom: 1px dashed #999;
+  color: #111;
+  text-decoration: none;
+}
+
+article a:hover {
+  border-bottom-style: solid;
+}
+
+article img {
+  max-width: 100%;
+}
