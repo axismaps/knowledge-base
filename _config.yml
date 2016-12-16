@@ -5,10 +5,14 @@ description: Knowledge Base - Design. Code.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
-  code:
-    output: true
+  kb_code:
     layout: doc
+    output: true
     permalink: /code/:path/
+  kb_data:
+    layout: doc
+    output: true
+    permalink: /data/:path/
 
 # Build settings
 markdown: kramdown

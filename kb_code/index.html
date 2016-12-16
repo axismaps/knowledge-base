@@ -1,13 +1,15 @@
 ---
 layout: directory
 title: Code Directory
+nav: Code
+order: 3
 ---
 
 <h1 class="title">Tips and tricks for Coding</h1>
 
 <article>
   <div class="directory--cards">
-    {% assign groups = site.code | group_by: "parent" | sort: "name" %}
+    {% assign groups = site.kb_code | group_by: "parent" | sort: "name" %}
     {% for group in groups %}
     <div class="card directory--card">
       <h4 class="card--title">{{ group.name }}</h4>

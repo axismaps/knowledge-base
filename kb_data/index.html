@@ -1,0 +1,24 @@
+---
+layout: directory
+title: Data Directory
+nav: Data
+order: 2
+---
+
+<h1 class="title">Tips and tricks for Data</h1>
+
+<article>
+  <div class="directory--cards">
+    {% assign groups = site.kb_data | group_by: "parent" | sort: "name" %}
+    {% for group in groups %}
+    <div class="card directory--card">
+      <h4 class="card--title">{{ group.name }}</h4>
+      <ul class="card--list">
+        {% for doc in group.items %}
+        <li class="card--list-item"><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</article>

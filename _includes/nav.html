@@ -1,1 +1,19 @@
-<nav></nav>
+<nav>
+  {% assign items = site.html_pages | sort: 'order' %}
+  {% for html in items %}
+    {% if html.nav == page.nav %}
+      <a href="{{ html.url | prepend: site.baseurl | remove: 'index.html' }}" class="nav-btn current">{{ html.nav }}</a>
+    {% else %}
+      <a href="{{ html.url | prepend: site.baseurl | remove: 'index.html' }}" class="nav-btn">{{ html.nav }}</a>
+    {% endif %}
+
+    {% if html.nav == 'Home' %}
+      <span> | </span>
+    {% endif %}
+  {% endfor %}
+
+  <!-- <a href="/" class="nav-btn">Home</a>
+  <a href="/" class="nav-btn">Data</a>
+  <a href="http://www.axismaps.com/guide" class="nav-btn">Design</a>
+  <a href="/code" class="nav-btn">Code</a> -->
+</nav>
