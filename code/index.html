@@ -3,12 +3,19 @@ layout: directory
 title: Code Directory
 ---
 
-{% assign groups = site.code | group_by: "parent" | sort: "name" %}
-{% for group in groups %}
-  <h4>{{ group.name }}</h4>
-  <ul>
-    {% for doc in group.items %}
-      <li><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<a href="/" class="main-logo"><img src="/images/logo.png" /></a>
+<h1 class="title">Tips and tricks for Coding</h1>
+
+<div class="directory--cards">
+  {% assign groups = site.code | group_by: "parent" | sort: "name" %}
+  {% for group in groups %}
+  <div class="card directory--card">
+    <h4 class="card--title">{{ group.name }}</h4>
+    <ul class="card--list">
+      {% for doc in group.items %}
+      <li class="card--list-item"><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
