@@ -105,3 +105,9 @@ strong {
 .card--list-item a:hover {
   border-bottom-style: solid;
 }
+
+/* DOC PAGE SPECIFIC STYLES */
+
+.content {
+  text-align: left;
+}
