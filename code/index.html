@@ -6,6 +6,6 @@ layout: directory
 
 <ul>
   {% for doc in site.code %}
-    <li><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></li>
+    <li><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a> - {{ doc.parent }}</li>
   {% endfor %}
 </ul>
