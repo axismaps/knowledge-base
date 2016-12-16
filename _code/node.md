@@ -1,6 +1,6 @@
 ---
 layout: doc
 title: Node
-category: dev code
+category: code
 parent: Development Environment
 ---

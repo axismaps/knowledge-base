@@ -1,6 +1,6 @@
 ---
 layout: doc
 title: Testing
-category: dev code
+category: code
 parent: Testing
 ---

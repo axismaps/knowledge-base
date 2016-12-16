@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Gulp vs Grunt
-category: dev code
+category: code
 parent: Build Tools
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: doc
 title: File Layout
-category: dev code
+category: code
 parent: Code Layout
 ---

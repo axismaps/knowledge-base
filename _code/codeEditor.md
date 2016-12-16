@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Code Editor
-category: dev code
+category: code
 parent: Development Environment
 ---
 

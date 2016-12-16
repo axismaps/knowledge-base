@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: IE/Edge
-category: dev code
+category: code
 parent: Browser Bugs
 ---
 

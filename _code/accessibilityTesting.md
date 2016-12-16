@@ -1,6 +1,6 @@
 ---
 layout: doc
 title: Testing Tools
-category: dev code
+category: code
 parent: Accessibility
 ---

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Fonts
-category: dev code
+category: code
 parent: Fonts
 ---
 

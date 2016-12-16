@@ -1,6 +1,6 @@
 ---
 layout: doc
 title: Best Practices
-category: dev code
+category: code
 parent: Accessibility
 ---

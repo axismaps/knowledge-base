@@ -1,6 +1,6 @@
 ---
 layout: doc
 title: Safari
-category: dev code
+category: code
 parent: Browser Bugs
 ---

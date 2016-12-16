@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Leaflet
-category: dev code
+category: code
 parent: Libraries
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: doc
 title: iMagick
-category: dev code
+category: code
 parent: Build Tools
 ---

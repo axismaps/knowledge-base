@@ -1,6 +1,6 @@
 ---
 layout: doc
 title: JS Best Practices
-category: dev code
+category: code
 parent: Code Best Practices
 ---

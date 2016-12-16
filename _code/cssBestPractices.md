@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: CSS Best Practices
-category: dev code
+category: code
 parent: Code Best Practices
 ---
 

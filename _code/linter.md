@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Linter
-category: dev code
+category: code
 parent: Build Tools
 ---
 

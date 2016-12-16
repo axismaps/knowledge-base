@@ -1,6 +1,6 @@
 ---
 layout: doc
 title: XAMMP
-category: dev code
+category: code
 parent: Development Environment
 ---

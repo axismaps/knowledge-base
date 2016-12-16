@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Other Libraries
-category: dev code
+category: code
 parent: Libraries
 ---
 
