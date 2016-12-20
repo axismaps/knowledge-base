@@ -5,11 +5,11 @@ category: code
 parent: Browser Bugs
 ---
 
-### IE 11
+## IE 11
 
-### Edge
+## Edge
 
-#### Scale text in SVG
+### Scale text in SVG
 
 Edge will cause SVG text nodes to disappear if they are scaled. This is relevant if on d3 maps with labels that scale on zoom.
 [Developer Bug Report](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/3723601/), [Connect Bug Report](https://connect.microsoft.com/IE/Feedback/Details/1571965)

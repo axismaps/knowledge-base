@@ -5,12 +5,12 @@ category: code
 parent: Libraries
 ---
 
-### noUiSlider
+## noUiSlider
 
-### GUP
+## GUP
 
-### Normalize.css
+## Normalize.css
 
-### Featherlight
+## Featherlight
 
-### PapaParse
+## PapaParse
