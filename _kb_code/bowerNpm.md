@@ -7,7 +7,7 @@ parent: Build Tools
 
 Bower and NPM are command line tools that help with installing libraries/frameworks for use in your project. They keep a config file that makes it easy for other developers to install the same packages, plus, there is no confusion about versions as the config file stores version information as well.
 
-Bower is built on top of NPM, so the first step for either of these tools is to install NPM into your OS.
+Bower is built on top of NPM, so the first step for either of these tools is to [install NPM](http://blog.npmjs.org/post/85484771375/how-to-install-npm).
 
 ### Bower
 
