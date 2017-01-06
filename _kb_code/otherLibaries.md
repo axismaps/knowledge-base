@@ -5,6 +5,10 @@ category: code
 parent: Libraries
 ---
 
+## [d3-queue](https://github.com/d3/d3-queue)
+
+A simple async loading library. Can be used without d3 at all.
+
 ## [noUiSlider](https://refreshless.com/nouislider/)
 
 A simple range slider that has a lot of options and is easily customizable.
